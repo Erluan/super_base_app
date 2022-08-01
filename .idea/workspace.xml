@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c809ffa-511b-4a6f-9808-4918a00b8765" name="Changes" comment=":hammer: updating dependencies" />
+    <list default="true" id="1c809ffa-511b-4a6f-9808-4918a00b8765" name="Changes" comment=":hammer: updating dependencies">
+      <change beforePath="$PROJECT_DIR$/super_home_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/super_home_app/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +20,7 @@
         <entry key="$PROJECT_DIR$/super_welcome_app" value="dd3cfb20eba608d7c3e22e0ff2c1fbc551928b96" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/super_base_app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/super_home_app" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
