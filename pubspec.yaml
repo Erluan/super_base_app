@@ -29,9 +29,11 @@ dependencies:
 
 dependency_overrides:
   super_home_app:
-    path: ../super_home_app
+    git:
+      url: https://github.com/Erluan/super_home_app
   super_welcome_app:
-    path: ../super_welcome_app
+    git:
+      url: https://github.com/Erluan/super_welcome_app
 
 
 dev_dependencies:
