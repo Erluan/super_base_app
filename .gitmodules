@@ -1,9 +1,9 @@
 [submodule "super_base_app"]
 	path = super_base_app
-	url = https://github.com/Erluan/super_base_app.git
+	url = git@github.com/Erluan/super_base_app.git
 [submodule "super_home_app"]
 	path = super_home_app
-	url = https://github.com/Erluan/super_home_app.git
+	url = git@github.com:Erluan/super_home_app.git
 [submodule "super_welcome_app"]
 	path = super_welcome_app
-	url = https://github.com/Erluan/super_welcome_app.git
+	url = git@github.com:Erluan/super_welcome_app.git
