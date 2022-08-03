@@ -3,6 +3,7 @@ import 'package:super_base_app/core/resources/base_app.dart';
 import 'package:super_base_app/core/resources/micro_app.dart';
 import 'package:super_base_app/core/resources/utils.dart';
 import 'package:super_home_app/super_home_app.dart';
+import 'package:super_welcome_app/super_welcome_app.dart';
 import 'package:super_base_app/routes/routes_path.dart';
 
 Future<void> main() async {
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget with BaseApp {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () async {
-            navigatorKey.currentState!.pushNamed(RoutesPath.homeScreen);
+            navigatorKey.currentState!.pushNamed(RoutesPath.welcomeScreen);
           },
           tooltip: 'Increment',
           child: const Icon(Icons.arrow_forward_ios),
@@ -56,5 +57,6 @@ class MyApp extends StatelessWidget with BaseApp {
   @override
   List<MicroApp> get microApps => [
     SuperHomeAppRelay(),
+    SuperWelcomeAppRelay(),
   ];
 }

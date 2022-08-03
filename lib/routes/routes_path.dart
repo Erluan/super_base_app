@@ -3,5 +3,5 @@ class RoutesPath {
   static const String homeScreen = '/Home';
 
   // Welcome
-  static const String welcomeScreen = '/Home';
+  static const String welcomeScreen = '/Welcome';
 }

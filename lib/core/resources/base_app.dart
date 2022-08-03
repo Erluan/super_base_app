@@ -36,8 +36,6 @@ abstract class BaseApp {
       queryParameters = uriData.pathSegments;
     }
 
-    final args = settings.arguments;
-
     switch (queryParameters!.first){
     // Home
       case RoutesPath.homeScreen:

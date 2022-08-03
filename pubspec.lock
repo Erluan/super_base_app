@@ -420,8 +420,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: "66ee24628b3a9f88f6674fa9f07ea12d134e56dc"
+      ref: master
+      resolved-ref: a9af9548eaeb784874f384443e45789513118180
       url: "https://github.com/Erluan/super_welcome_app"
     source: git
     version: "0.0.1"

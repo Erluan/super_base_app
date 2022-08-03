@@ -28,7 +28,7 @@ class Routes {
         );
       default:
         return MaterialPageRoute(
-          builder: (context) => WelcomeScreen(),
+          builder: (context) => Container(),
           settings: const RouteSettings(
             name: RoutesPath.welcomeScreen,
           ),
